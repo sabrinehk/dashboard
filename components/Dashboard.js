@@ -46,8 +46,8 @@ const Dashboard = () => {
           <span>1960</span>
         </div>
       </div>
-      <div className="flex flex-row-reverse gap-2 px-8 items-center w-full justify-between">
-        <div className="w-[40%] flex justify-center items-center">
+      <div className="flex flex-row-reverse flex-wrap md:!flex-nowrap gap-2 px-8 items-center w-full justify-between">
+        <div className="md:!w-[40%] w-full flex justify-center items-center">
           <Image
             width={430}
             height={430}
@@ -56,7 +56,7 @@ const Dashboard = () => {
             src={imageVirus}
           />
         </div>
-        <div className="w-[60%] pt-5">
+        <div className="md:!w-[60%] w-full pt-5">
           <ApexCharts
             series={[
               {
