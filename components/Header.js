@@ -13,7 +13,7 @@ const Header = () => {
         <PersonOutlined />
         <NotificationsNoneOutlined />
       </div>
-      <div className="font-bold text-blue-900 text-3xl">Deadly viruses</div>
+      <div className="font-bold text-blue-900 md:!text-3xl text-xs w-fit text-nowrap">Deadly viruses</div>
     </div>
   );
 };
